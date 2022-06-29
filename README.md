@@ -5,6 +5,8 @@ _Expected to be under continual, sporadic development_
 ## Contents
 ### Sierpinski Triangle
 
+![Example animated gif of the Sierpinski triangle being plotted with 30,000 points](https://github.com/TrevorJA/fractal_generation/blob/master/Sierpinski_triangle_30000_points.gif)
+
 fractal_triangle_main.py
 > Generates a [Sierpinski Triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle). The user has the option to input the number of points desired within the plot, the type of figure produced (still PNG or animated GIF), and has the option to select unique corners for the triangle. The algorithm for generating the triangle follows:
 *Algorithm:*
