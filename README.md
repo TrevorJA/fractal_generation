@@ -6,7 +6,7 @@ _Expected to be under continual, sporadic development_.
 ### Sierpinski Triangle
 
 <p align="center">
-    <img src="https://github.com/TrevorJA/fractal_generation/blob/master/Sierpinski_triangle_30000_points.gif" alt = "Example animated gif of the Sierpinski triangle being plotted with 30,000 points." />
+    <img src="https://github.com/TrevorJA/fractal_generation/blob/master/sierpinski_triangle/Sierpinski_triangle_30000_points.gif" alt = "Example animated gif of the Sierpinski triangle being plotted with 30,000 points." />
 </p>
 
 fractal_triangle_main.py
