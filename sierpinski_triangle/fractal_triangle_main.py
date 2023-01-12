@@ -134,9 +134,9 @@ if __name__ == '__main__':
     ax.axes.get_yaxis().set_visible(False)
 
     if fig_type == 'GIF':
-        
+
         # Plot starting corners
-        scatter_plot = ax.scatter(x_data[0], y_data[0], c = 'black', marker = '.', s = 0.1, alpha = 1)
+        scatter_plot = ax.plot(x_data[0], y_data[0], c = 'black', marker = '.', s = 0.1, alpha = 1)
         plot_label = ax.text(text_xloc, text_yloc, 'Number of points: %d' % 0)
         ax.set_title('The Sierpinski Triangle')
 
@@ -154,7 +154,7 @@ if __name__ == '__main__':
         print("Done! Check your current folder for the .gif.\n")
 
     elif fig_type == 'PNG':
-        
+
         # Produce and save scatter plot
         scatter_plot = ax.scatter(x_data, y_data, c = 'black', marker = ',', s = 0.05, alpha = 1)
         plot_label = ax.text(text_xloc, text_yloc, f'Number of points: {N}')
@@ -164,4 +164,3 @@ if __name__ == '__main__':
 
     else:
         print('Unknown figure type. Options are only PNG or GIF.  Retry.')
-
